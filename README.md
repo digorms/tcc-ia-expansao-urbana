@@ -8,9 +8,9 @@ Este repositório contém o ecossistema de Engenharia de Dados e o modelo de Int
 
 O algoritmo foi treinado utilizando uma divisão estatística de 80% para treino e 20% para teste. Os resultados obtidos foram:
 
-*   **R² Score (Poder de Explicação):** 0.43  
+* **R² Score (Poder de Explicação):** 0.43  
     *Significado Acadêmico:* Fatores macroestruturais de transporte e renda média explicam **43%** da lógica de distribuição de templos na capital. Para fenômenos sociais e demográficos, trata-se de um índice de forte relevância científica.
-*   **Erro Médio Absoluto (MAE):** 4.76 igrejas  
+* **Erro Médio Absoluto (MAE):** 4.76 igrejas  
     *Significado Acadêmico:* Em média, as previsões do modelo flutuam em menos de 5 templos para mais ou para menos por bairro, demonstrando alta calibração e estabilidade algorítmica.
 
 ---
@@ -19,10 +19,10 @@ O algoritmo foi treinado utilizando uma divisão estatística de 80% para treino
 
 ```text
 ├── data/
-│   └── RJ_Bairros.csv             <- Matriz de dados consolidada e tratada
+│   └── RJ_Bairros.csv             <- Matriz de dados consolidada e tratada para a IA
 ├── gis/
-│   ├── README.md                  <- Documentação das camadas de mapas
-│   └── RJ_Bairros_Metro_BRT_Pontos_Igrejas_Renda.prj         <- Arquivo de projeto do QGIS 3.x
+│   ├── README.md                  <- Documentação técnica das camadas de mapas
+│   └── Igrejas Cidade do Rio de Janeiro.qgz <- Arquivo de projeto principal do QGIS 3.x
 ├── notebooks/
 │   └── modelagem_random_forest.ipynb <- Código original do Google Colab
 └── README.md                      <- Esta documentação principal
